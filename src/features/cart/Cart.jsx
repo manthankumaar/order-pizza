@@ -9,7 +9,6 @@ function Cart() {
   const dispatch = useDispatch();
   const username = useSelector(getUser);
   const cart = useSelector(getCart);
-  console.log(cart);
   const handleClearCart = () => {
     dispatch(clearCart());
   };
