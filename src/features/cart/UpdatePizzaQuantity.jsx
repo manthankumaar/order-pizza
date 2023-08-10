@@ -4,7 +4,6 @@ import Button from "../../ui/Button";
 import { decreaseItemQuantity, increaseItemQuantity } from "../../store";
 
 const UpdatePizzaQuantity = ({ id, currentQuantity }) => {
-  console.log(id);
   const dispatch = useDispatch();
 
   return (
